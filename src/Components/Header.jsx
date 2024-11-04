@@ -9,8 +9,8 @@ const Header = () => {
             <img className={`${style.logo}`} src="Logo White.svg" alt="" />
             <nav>
                 <Link path={ROUTES.home}>Home</Link>
-                <Link>Projects</Link>
-                <Link>Contact</Link>
+                <Link path={ROUTES.projects}>Projects</Link>
+                <Link path={ROUTES.contact}>Contact</Link>
             </nav>
         </header>
     );
