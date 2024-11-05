@@ -15,10 +15,15 @@ const Hero = () => {
     }, [words.length]);
 
     return (
-        <section>
+        <section className={`${style.section}`}>
             <h1 className={`${style.welcome}`}>
                 Hi, I'm Kylian Lenoir, a <span className={`${style.word}`}>{words[currentWordIndex]}</span>
             </h1>
+            <div className={`${style.heroSContainer}`}>
+                <div className={`${style.heroS} ${style.heroS1}`}></div>
+                <div className={`${style.heroS} ${style.heroS2}`}></div>
+                <div className={`${style.heroS} ${style.heroS3}`}></div>
+            </div>
         </section>
     );
 };

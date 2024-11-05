@@ -4,6 +4,54 @@
     text-align: left;
 }
 .word{
-    color: var(--color-accent-500);
+    color: var(--color-accent-800);
     font-weight: bold;
+}
+.heroSContainer{
+    overflow: hidden;
+    position: absolute;
+    top: 10rem;
+    z-index: -1;
+
+    height: 100vh;
+    width: 100vw;
+}
+.heroS{
+    position: absolute;
+    top: 0;
+
+    background-size: 110% !important;
+    background-repeat: no-repeat !important;
+
+    height: 100%;
+    width: 100%;
+
+    transition: all .25s;
+}
+.heroS1{
+    background: url('/images/hero-1.svg');
+    background-position: left 100% center;
+    animation: move 8s infinite ease;
+}
+.heroS2{
+    background: url('/images/hero-2.svg');
+    background-position: left 100% center;
+    animation: move 12s infinite ease 0.5s;
+}
+.heroS3{
+    background: url('/images/hero-3.svg');
+    background-position: left 100% center;
+    animation: move 10s infinite ease 1s;
+}
+
+@keyframes move {
+    0% {
+        background-position: left 100% center;
+    }
+    50% {
+        background-position: left 0% center;
+    }
+    100% {
+        background-position: left 100% center;
+    }
 }
