@@ -1,3 +1,6 @@
+.sectionHighlights{
+    min-height: 60rem;
+}
 .title{
     color: var(--color-white-100);
     font-size: 4.2rem;
@@ -10,5 +13,5 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    gap: 6rem;
 }

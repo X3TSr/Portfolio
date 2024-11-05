@@ -1,15 +1,14 @@
 import React from 'react'
 import style from './CardsHighlights.module.css'
+import { Link } from 'react-router-dom'
 
-const CardsHighlights = ({ title, description }) => {
+const CardsHighlights = ({ title }) => {
     return (
-        <div className={`${style.highlightItem}`}>
-            <h3 className={`${style.highlightTitle}`}>{title}</h3>
-            <p className={`${style.highlightDescription}`}>
-                {description}
-            </p>
-            <img src={`images/cards/${title.toLowerCase()}/thumbnail.svg`} alt="" />
-        </div>
+        <Link to={`/projects/${title.toLowerCase()}`}>
+            <div className={`${style.highlightItem}`}>
+                <img className={`${style.highlightImage}`} src={`images/cards/${title.toLowerCase()}/thumbnail.svg`} alt="" />
+            </div>
+        </Link>
     );
 };
 

@@ -59,7 +59,7 @@ nav > *{
 
 .cta {
     /* Credits: https://masscode.io/snippets/ui/buttons/7/ */
-    --button_radius: 1.25rem;
+    --button_radius: var(--border-radius-global);
     --button_color: var(--color-accent-500);
     --button_outline_color: var(--color-accent-800);
     
