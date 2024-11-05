@@ -47,11 +47,13 @@
     background: url('/images/hero-2.svg');
     background-position: left var(--heroStart) top 100%;
     animation: move 6s infinite ease 0.5s;
+    filter: blur(.25rem);
 }
 .heroS3{
     background: url('/images/hero-3.svg');
     background-position: left var(--heroStart) top 100%;
     animation: move 10s infinite ease 1s;
+    filter: blur(.1rem);
 }
 
 @keyframes move {
