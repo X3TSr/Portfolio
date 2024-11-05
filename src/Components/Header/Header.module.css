@@ -9,6 +9,7 @@ header{
     
     background-color: rgba(0, 0, 0, .4);
     backdrop-filter: blur(1rem);
+    box-shadow: 0 0 2rem .1rem var(--color-black-600);
     
     height: 10rem;
     padding: 0 3rem;
