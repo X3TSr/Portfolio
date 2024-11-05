@@ -23,8 +23,8 @@ footer{
     margin: var(--padding-global) 0;
 }
 .links img{
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
 }
 .links a{
     color: var(--color-white-300);
