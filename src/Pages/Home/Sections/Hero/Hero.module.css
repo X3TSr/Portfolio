@@ -7,6 +7,8 @@
     color: var(--color-accent-800);
     font-weight: bold;
 }
+
+
 .heroSContainer{
     overflow: hidden;
     position: absolute;
@@ -15,12 +17,15 @@
 
     height: 100vh;
     width: 100vw;
+
+    margin: 0 calc(var(--padding-global) * -1);
 }
 .heroS{
+    --heroStart: 800%;
     position: absolute;
     top: 0;
 
-    background-size: 110% !important;
+    background-size: 101% !important;
     background-repeat: no-repeat !important;
 
     height: 100%;
@@ -31,27 +36,26 @@
 .heroS1{
     background: url('/images/hero-1.svg');
     background-position: left 100% center;
-    animation: move 8s infinite ease;
 }
 .heroS2{
     background: url('/images/hero-2.svg');
-    background-position: left 100% center;
-    animation: move 12s infinite ease 0.5s;
+    background-position: left var(--heroStart) center;
+    animation: move 6s infinite ease 0.5s;
 }
 .heroS3{
     background: url('/images/hero-3.svg');
-    background-position: left 100% center;
+    background-position: left var(--heroStart) center;
     animation: move 10s infinite ease 1s;
 }
 
 @keyframes move {
     0% {
-        background-position: left 100% center;
+        background-position: left var(--heroStart) center;
     }
     50% {
         background-position: left 0% center;
     }
     100% {
-        background-position: left 100% center;
+        background-position: left var(--heroStart) center;
     }
 }
