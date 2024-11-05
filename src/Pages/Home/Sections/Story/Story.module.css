@@ -1,3 +1,7 @@
+.sectionStory {
+    min-height: 40vh;
+}
+
 .story__container {
     display: flex;
     flex-direction: column;

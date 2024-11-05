@@ -15,9 +15,9 @@ const Hero = () => {
     }, [words.length]);
 
     return (
-        <section>
+        <section className={`${style.sectionHero}`}>
             <h1 className={`${style.welcome}`}>
-                Hi, I'm Kylian Lenoir, a <span className={`${style.word}`}>{words[currentWordIndex]}</span>
+                Hi, I'm Kylian Lenoir<br /> A <span className={`${style.word}`}>{words[currentWordIndex]}</span>
             </h1>
             <div className={`${style.heroSContainer}`}>
                 <div className={`${style.heroS} ${style.heroS1}`}></div>

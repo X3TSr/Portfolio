@@ -2,7 +2,6 @@
     position: relative;
 
     background-color: var(--color-white-100);
-    border: 1px solid var(--color-white-300);
     border-radius: var(--border-radius-global);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     
@@ -11,7 +10,8 @@
     transition: all .25s;
 }
 .highlightItem:hover {
-    box-shadow: 0 0 3rem 0 var(--color-white-800);
+    background-color: var(--color-accent-200);
+    box-shadow: 0 0 1rem 0 var(--color-accent-200);
 }
 .highlightImage {
     border-radius: var(--border-radius-global);
