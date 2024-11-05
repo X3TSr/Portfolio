@@ -13,15 +13,15 @@ const Highlights = () => {
                     </p>
                 </div>
                 <div className={`${style.highlightItem}`}>
-                    <h3 className={`${style.highlightTitle}`}>Webdesign</h3>
+                    <h3 className={`${style.highlightTitle}`}>Hairelby</h3>
                     <p className={`${style.highlightDescription}`}>
-                        I am a webdesigner with a passion for creating beautiful and functional websites.
+                        Hair salon that is sadly out of business.
                     </p>
                 </div>
                 <div className={`${style.highlightItem}`}>
-                    <h3 className={`${style.highlightTitle}`}>Student</h3>
+                    <h3 className={`${style.highlightTitle}`}>Aux Portes De Soi</h3>
                     <p className={`${style.highlightDescription}`}>
-                        I am a student with a passion for learning new things and improving my skills.
+                        A place for personal development and clairvoyance.
                     </p>
                 </div>
             </div>

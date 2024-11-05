@@ -35,27 +35,26 @@
 }
 .heroS1{
     background: url('/images/hero-1.svg');
-    background-position: left 100% center;
 }
 .heroS2{
     background: url('/images/hero-2.svg');
-    background-position: left var(--heroStart) center;
+    background-position: left var(--heroStart) top 100%;
     animation: move 6s infinite ease 0.5s;
 }
 .heroS3{
     background: url('/images/hero-3.svg');
-    background-position: left var(--heroStart) center;
+    background-position: left var(--heroStart) top 100%;
     animation: move 10s infinite ease 1s;
 }
 
 @keyframes move {
     0% {
-        background-position: left var(--heroStart) center;
+        background-position: left var(--heroStart) top 100%;
     }
     50% {
-        background-position: left 0% center;
+        background-position: left 0% top 100%;
     }
     100% {
-        background-position: left var(--heroStart) center;
+        background-position: left var(--heroStart) top 100%;
     }
 }
