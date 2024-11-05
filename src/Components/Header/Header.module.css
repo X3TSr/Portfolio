@@ -2,14 +2,14 @@ header{
     position: sticky;
     top: 0;
     z-index: 1000;
-
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
     background-color: rgba(0, 0, 0, .4);
     backdrop-filter: blur(1rem);
-
+    
     height: 10rem;
     padding: 0 3rem;
 }
@@ -17,8 +17,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    width: 30rem;
+    
+    width: 45rem;
     height: 100%;
 }
 nav > *{
@@ -27,4 +27,60 @@ nav > *{
 }
 .logo{
     width: 8rem;
+}
+.link{
+    color: var(--color-white-600);
+    text-decoration: none;
+}
+.link:hover{
+    color: var(--color-white-200);
+}
+.link::after{
+    content: '';
+    display: block;
+    
+    background-color: var(--color-white-200);
+    border-radius: 2rem;
+    
+    width: 0;
+    height: .25rem;
+    
+    transition: all .25s;
+}
+.link:hover::after{
+    width: 100%;
+}
+.active{
+    color: var(--color-white-200);
+}
+
+
+
+.cta {
+    /* Credits: https://masscode.io/snippets/ui/buttons/7/ */
+    --button_radius: 1.25rem;
+    --button_color: var(--color-accent-500);
+    --button_outline_color: var(--color-accent-800);
+    
+    display: block;
+
+    background: var(--button_color);
+    color: var(--button_outline_color);
+
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    
+    padding: calc(.75 * var(--button_radius)) calc(1.25 * var(--button_radius));
+
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+}
+.cta::after{
+    display: none;
+}
+.cta:hover{
+    transform: translateY(-0.33rem);
+}
+.cta:active{
+    transform: translateY(0);
 }

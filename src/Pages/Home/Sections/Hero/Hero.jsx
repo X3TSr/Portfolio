@@ -17,7 +17,7 @@ const Hero = () => {
     return (
         <section>
             <h1 className={`${style.welcome}`}>
-                Hi I'm Kylian Lenoir a <span className={`${style.word}`}>{words[currentWordIndex]}</span>
+                Hi, I'm Kylian Lenoir, a <span className={`${style.word}`}>{words[currentWordIndex]}</span>
             </h1>
         </section>
     );

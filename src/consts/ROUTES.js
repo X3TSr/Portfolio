@@ -3,6 +3,7 @@ const ROUTES = {
     projects: '/projects',
     projectDetail: { path: "/project/:id", to: "/project/" },
     contact: '/contact',
+    getInTouch: '/get-in-touch',
     notfound: '*'
 }
 
