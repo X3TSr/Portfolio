@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const CardsHighlights = ({ title }) => {
     return (
-        <Link to={`/projects/${title.toLowerCase()}`}>
+        <Link to={`/project/${title.toLowerCase()}`}>
             <div className={`${style.highlightItem}`}>
                 <img className={`${style.highlightImage}`} src={`images/cards/${title.toLowerCase()}/thumbnail.svg`} alt="" />
             </div>
