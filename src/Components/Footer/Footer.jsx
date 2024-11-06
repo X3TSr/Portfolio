@@ -11,6 +11,7 @@ const Footer = () => {
                 <img src="Logo White.png" alt="logo" />
                 <Link to={ROUTES.home}>Home</Link>
                 <Link to={ROUTES.projects}>Projects</Link>
+                <Link to={ROUTES.timeline}>Timeline</Link>
                 <Link to={ROUTES.contact}>Contact</Link>
             </div>
             <hr className={style.divider} />
