@@ -1,0 +1,41 @@
+{
+    "Toki": {
+        "active": false,
+        "title": "Toki",
+        "description": "Toki is a korean street food restaurant located in Aalst. The website is a showcase of the restaurant's menu and has a bubble tea visualiser.",
+        "thumbnail": "/images/cards/toki/thumbnail.svg",
+        "images": [
+            "/images/cards/toki/1.jpg",
+            "/images/cards/toki/2.jpg",
+            "/images/cards/toki/3.jpg",
+            "/images/cards/toki/4.jpg"
+        ],
+        "link": "/"
+    },
+    "Hairelby": {
+        "active": false,
+        "title": "Hairelby",
+        "description": "Hairelby is a hairstylist. The website is a showcase of the hairstylist's work and prices.",
+        "thumbnail": "/images/cards/hairelby/thumbnail.svg",
+        "images": [
+            "/images/cards/hairelby/1.jpg",
+            "/images/cards/hairelby/2.jpg",
+            "/images/cards/hairelby/3.jpg",
+            "/images/cards/hairelby/4.jpg"
+        ],
+        "link": "/"
+    },
+    "Aux portes de soi": {
+        "active": true,
+        "title": "Aux portes de soi",
+        "description": "This is my Aux portes de soi. It showcases my projects and skills.",
+        "thumbnail": "/images/cards/aux portes de soi/thumbnail.svg",
+        "images": [
+            "/images/cards/aux portes de soi/1.jpg",
+            "/images/cards/aux portes de soi/2.jpg",
+            "/images/cards/aux portes de soi/3.jpg",
+            "/images/cards/aux portes de soi/4.jpg"
+        ],
+        "link": "auxportesdesoi.com"
+    }
+}
