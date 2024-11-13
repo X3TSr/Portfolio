@@ -1,8 +1,12 @@
 .sectionProjects{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 100vw;
+}
+.title{
+    font-size: 5.6rem;
+    margin: 3rem;
 }
 .projects{
     display: grid;
@@ -10,6 +14,7 @@
     justify-items: center;
 
     width: 100%;
+    margin-bottom: 6rem;
 }
 .projects img{
     width: 80%;
