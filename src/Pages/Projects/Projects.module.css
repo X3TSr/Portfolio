@@ -17,5 +17,13 @@
     margin-bottom: 6rem;
 }
 .projects img{
+    border: 1rem var(--color-white-200) solid;
+    border-radius: var(--border-radius-global);
+
     width: 80%;
+    transition: all .125s;
+}
+.projects img:hover{
+    border: 1rem var(--color-accent-200) solid;
+    box-shadow: 0 0 1rem 0 var(--color-accent-200);
 }
