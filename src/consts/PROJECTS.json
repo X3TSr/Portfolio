@@ -5,10 +5,10 @@
         "description": "Toki is a korean street food restaurant located in Aalst. The website is a showcase of the restaurant's menu and has a bubble tea visualiser.",
         "thumbnail": "/images/projects/toki/thumbnail.svg",
         "images": [
-            "/images/projects/toki/1.jpg",
-            "/images/projects/toki/2.jpg",
-            "/images/projects/toki/3.jpg",
-            "/images/projects/toki/4.jpg"
+            "/images/projects/toki/1.svg",
+            "/images/projects/toki/2.svg",
+            "/images/projects/toki/3.svg",
+            "/images/projects/toki/4.svg"
         ],
         "link": "/"
     },
@@ -18,10 +18,10 @@
         "description": "Hairelby is a hairstylist. The website is a showcase of the hairstylist's work and prices.",
         "thumbnail": "/images/projects/hairelby/thumbnail.svg",
         "images": [
-            "/images/projects/hairelby/1.jpg",
-            "/images/projects/hairelby/2.jpg",
-            "/images/projects/hairelby/3.jpg",
-            "/images/projects/hairelby/4.jpg"
+            "/images/projects/hairelby/1.svg",
+            "/images/projects/hairelby/2.svg",
+            "/images/projects/hairelby/3.svg",
+            "/images/projects/hairelby/4.svg"
         ],
         "link": "/"
     },
@@ -31,10 +31,10 @@
         "description": "This is my Aux portes de soi. It showcases my projects and skills.",
         "thumbnail": "/images/projects/aux portes de soi/thumbnail.svg",
         "images": [
-            "/images/projects/aux portes de soi/1.jpg",
-            "/images/projects/aux portes de soi/2.jpg",
-            "/images/projects/aux portes de soi/3.jpg",
-            "/images/projects/aux portes de soi/4.jpg"
+            "/images/projects/aux portes de soi/1.svg",
+            "/images/projects/aux portes de soi/2.svg",
+            "/images/projects/aux portes de soi/3.svg",
+            "/images/projects/aux portes de soi/4.svg"
         ],
         "link": "auxportesdesoi.com"
     }

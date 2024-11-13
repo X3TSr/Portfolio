@@ -11,3 +11,32 @@
 
     padding: 0 var(--padding-global);
 }
+
+.description{
+    font-size: 2rem;
+    text-align: left;
+
+    width: 33vw;
+    margin-bottom: var(--padding-global);
+}
+
+.images{
+    overflow-x: scroll;
+    scrollbar-width: none;
+
+    display: flex;
+    justify-content: space-between;
+    gap: var(--padding-global);
+
+    background-color: var(--color-white-200);
+    border-radius: 2rem 0 0 2rem;
+    
+    margin: 5rem 0;
+    margin-right: calc(var(--padding-global) * -1);
+    margin-left: 20rem;
+    padding: var(--padding-global) 0;
+    padding-left: var(--padding-global);
+}
+.images::-webkit-scrollbar{
+    display: none;
+}
