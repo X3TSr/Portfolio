@@ -1,5 +1,5 @@
 {
-    "Toki": {
+    "toki": {
         "active": false,
         "title": "Toki",
         "description": "Toki is a korean street food restaurant located in Aalst. The website is a showcase of the restaurant's menu and has a bubble tea visualiser.",
@@ -12,7 +12,7 @@
         ],
         "link": "/"
     },
-    "Hairelby": {
+    "hairelby": {
         "active": false,
         "title": "Hairelby",
         "description": "Hairelby is a hairstylist. The website is a showcase of the hairstylist's work and prices.",
@@ -25,7 +25,7 @@
         ],
         "link": "/"
     },
-    "Aux portes de soi": {
+    "aux portes de soi": {
         "active": true,
         "title": "Aux portes de soi",
         "description": "This is my Aux portes de soi. It showcases my projects and skills.",
