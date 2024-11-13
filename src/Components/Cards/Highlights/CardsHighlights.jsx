@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 
 const CardsHighlights = ({ title }) => {
     return (
-        <Link to={`/project/${title.toLowerCase()}`}>
+        <Link to={`/project/${title}`}>
             <div className={`${style.highlightItem}`}>
-                <img className={`${style.highlightImage}`} src={`images/cards/${title.toLowerCase()}/thumbnail.svg`} alt="" />
+                <img className={`${style.highlightImage}`} src={`images/projects/${title}/thumbnail.svg`} alt="" />
             </div>
         </Link>
     );
