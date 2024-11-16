@@ -8,6 +8,7 @@
 .dark{
     background-color: var(--color-accent-200);
     color: var(--color-accent-800);
+    border-radius: var(--padding-global);
 
     padding: 0 var(--padding-global);
 }
