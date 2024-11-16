@@ -53,3 +53,8 @@
 .images::-webkit-scrollbar{
     display: none;
 }
+
+.image{
+    box-shadow: 0 0 1.25rem .25rem var(--color-black-100);
+    margin-right: var(--padding-global);
+}
