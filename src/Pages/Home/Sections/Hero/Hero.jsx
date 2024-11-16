@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import style from './Hero.module.css'
+import HeroContainer from '../../../../Components/HeroContainer/HeroContainer'
 
 const Hero = () => {
 
@@ -19,11 +20,7 @@ const Hero = () => {
             <h1 className={`${style.welcome}`}>
                 Hi, I'm Kylian Lenoir<br /> A <span className={`${style.word}`}>{words[currentWordIndex]}</span>
             </h1>
-            <div className={`${style.heroSContainer}`}>
-                <div className={`${style.heroS} ${style.heroS1}`}></div>
-                <div className={`${style.heroS} ${style.heroS2}`}></div>
-                <div className={`${style.heroS} ${style.heroS3}`}></div>
-            </div>
+            <HeroContainer />
         </section>
     );
 };

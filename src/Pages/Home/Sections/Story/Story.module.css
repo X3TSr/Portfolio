@@ -7,22 +7,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    background-color: var(--color-white-100);
     border-radius: var(--border-radius-global);
     
     padding: 2rem;
 }
 
 .story__title {
-    color: var(--color-black-800);
+    color: var(--color-white-200);
     font-size: 3.6rem;
 
     margin: -1.4rem 0;
 }
 
 .story__text {
-    color: var(--color-black-600);
+    color: var(--color-white-600);
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 1.6;
