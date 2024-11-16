@@ -15,6 +15,9 @@ footer{
     padding: 2rem 0;
 }
 
+.logo{
+    margin-right: var(--padding-global);
+}
 .links{
     display: flex;
     justify-content: center;

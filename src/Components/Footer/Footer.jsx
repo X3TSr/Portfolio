@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <footer>
             <div className={`${style.links}`}>
-                <img src="Logo White.png" alt="logo" />
+                <img className={`${style.logo}`} src="Logo White.png" alt="logo" />
                 <Link to={ROUTES.home}>Home</Link>
                 <Link to={ROUTES.projects}>Projects</Link>
                 <Link to={ROUTES.timeline}>Timeline</Link>
