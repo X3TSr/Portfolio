@@ -13,6 +13,18 @@
     padding: 0 var(--padding-global);
 }
 
+.projectLink{
+    background-color: var(--color-white-200);
+    color: var(--color-black-800);
+    border-radius: var(--padding-global);
+
+    font-size: 2rem;
+    text-decoration: none;
+
+    width: fit-content;
+    padding: calc(var(--padding-global)/4) var(--padding-global);
+}
+
 .description{
     font-size: 2rem;
     text-align: left;
