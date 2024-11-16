@@ -1,5 +1,6 @@
 .welcome{
     --offset: 30rem;
+
     position: absolute;
     top: var(--offset);
     left: calc(var(--offset) / 2);
@@ -12,4 +13,13 @@
 .word{
     color: var(--color-accent-800);
     font-weight: bold;
+}
+
+
+/* Make it responsive */
+@media screen and (max-width: 768px){
+    .welcome{
+        --offset: 10rem;
+        font-size: 4.2rem;
+    }
 }
