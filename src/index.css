@@ -133,6 +133,7 @@ section{
 
   min-height: 100vh;
   padding: 0 var(--padding-global);
+  margin-bottom: calc(var(--padding-global) *2);
 }
 
 h1, h2, h3, h4, h5, h6{

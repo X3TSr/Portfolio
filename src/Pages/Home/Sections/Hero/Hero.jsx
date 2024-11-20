@@ -4,7 +4,26 @@ import HeroContainer from '../../../../Components/HeroContainer/HeroContainer'
 
 const Hero = () => {
 
-    const words = ['Webdeveloper', 'Webdesigner', 'Student', 'Creative']
+    const words = [
+        'Webdeveloper',
+        'Webdesigner',
+        'Student',
+        'Creative',
+        '3D Artist',
+        'Frontend Developer',
+        'Backend Developer',
+        'Fullstack Developer',
+        'UI/UX Designer',
+        'Graphic Designer',
+        'Digital Artist',
+        'Problem Solver',
+        'Tech Enthusiast',
+        'Gamer',
+        'Dreamer',
+        'Thinker',
+        'Doer',
+        'Maker'
+    ]
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
     useEffect(() => {

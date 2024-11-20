@@ -9,9 +9,9 @@
     margin-bottom: 6rem;
 }
 .highlightsContainer {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     justify-content: space-between;
     align-items: center;
-    gap: 6rem;
+    gap: var(--padding-global);
 }

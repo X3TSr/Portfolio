@@ -1,9 +1,13 @@
+.sectionHero{
+
+}
+
 .welcome{
     --offset: 30rem;
 
     position: absolute;
-    top: var(--offset);
-    left: calc(var(--offset) / 2);
+    top: 30vh;
+    left: 5vw;
 
     background-color: #0005;
     border-radius: var(--border-radius-global);
@@ -17,6 +21,7 @@
     padding: var(--padding-global);
 
     backdrop-filter: blur(1rem);
+    width: 60%;
 }
 .word{
     color: var(--color-accent-700);
