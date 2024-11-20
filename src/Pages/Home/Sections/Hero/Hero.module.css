@@ -1,10 +1,4 @@
-.sectionHero{
-
-}
-
 .welcome{
-    --offset: 30rem;
-
     position: absolute;
     top: 30vh;
     left: 5vw;
@@ -21,7 +15,6 @@
     padding: var(--padding-global);
 
     backdrop-filter: blur(1rem);
-    width: 60%;
 }
 .word{
     color: var(--color-accent-700);
@@ -29,10 +22,17 @@
 }
 
 
+
 /* Make it responsive */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .welcome{
-        --offset: 10rem;
         font-size: 4.2rem;
+        writing-mode: vertical-rl;
+    }
+}
+/* Make it responsive */
+@media screen and (min-width:768px) and (max-width: 1024px){
+    .welcome{
+        font-size: 6.4rem;
     }
 }
