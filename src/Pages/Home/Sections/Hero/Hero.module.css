@@ -5,13 +5,21 @@
     top: var(--offset);
     left: calc(var(--offset) / 2);
 
+    background-color: #0005;
+    border-radius: var(--border-radius-global);
+    box-shadow: .25rem .25rem 2rem var(--color-black-800);
+
     font-size: 10rem;
     font-weight: lighter;
     text-align: left;
     text-shadow: 0 0 2rem var(--color-accent-800);
+
+    padding: var(--padding-global);
+
+    backdrop-filter: blur(1rem);
 }
 .word{
-    color: var(--color-accent-800);
+    color: var(--color-accent-700);
     font-weight: bold;
 }
 

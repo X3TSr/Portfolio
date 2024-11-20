@@ -21,8 +21,9 @@
   --color-white-700: #999;
   --color-white-800: #888;
   --color-white-900: #777;
-
-  --color-accent-100: #f3eaff;
+  
+  /* LIGHT PURPLE */
+  /* --color-accent-100: #f3eaff;
   --color-accent-200: #e7d4ff;
   --color-accent-300: #cfabff;
   --color-accent-400: #b39aff;
@@ -30,9 +31,60 @@
   --color-accent-600: #8a73cc;
   --color-accent-700: #6e5a99;
   --color-accent-800: #524066;
-  --color-accent-900: #362733;
+  --color-accent-900: #362733; */
+
+  /* DEEP PURPLE */
+  --color-accent-100: #f3e5ff;
+  --color-accent-200: #e0b3ff;
+  --color-accent-300: #cc80ff;
+  --color-accent-400: #b84dff;
+  --color-accent-500: #a31aff;
+  --color-accent-600: #8214cc;
+  --color-accent-700: #611099;
+  --color-accent-800: #400b66;
+  --color-accent-900: #200533;
+  --color-accent2-100: #ffebee;
 
 
+
+  /* --color-accent2-200: #ffcdd2;
+  --color-accent2-300: #ef9a9a;
+  --color-accent2-400: #e57373;
+  --color-accent2-500: #ef5350;
+  --color-accent2-600: #e53935;
+  --color-accent2-700: #d32f2f;
+  --color-accent2-800: #c62828;
+  --color-accent2-900: #b71c1c;
+
+  --color-accent3-100: #e1f5fe;
+  --color-accent3-200: #b3e5fc;
+  --color-accent3-300: #81d4fa;
+  --color-accent3-400: #4fc3f7;
+  --color-accent3-500: #29b6f6;
+  --color-accent3-600: #03a9f4;
+  --color-accent3-700: #039be5;
+  --color-accent3-800: #0288d1;
+  --color-accent3-900: #0277bd;
+
+  --color-accent4-100: #e8f5e9;
+  --color-accent4-200: #c8e6c9;
+  --color-accent4-300: #a5d6a7;
+  --color-accent4-400: #81c784;
+  --color-accent4-500: #66bb6a;
+  --color-accent4-600: #4caf50;
+  --color-accent4-700: #43a047;
+  --color-accent4-800: #388e3c;
+  --color-accent4-900: #2e7d32;
+
+  --color-accent5-100: #fff3e0;
+  --color-accent5-200: #ffe0b2;
+  --color-accent5-300: #ffcc80;
+  --color-accent5-400: #ffb74d;
+  --color-accent5-500: #ffa726;
+  --color-accent5-600: #ff9800;
+  --color-accent5-700: #fb8c00;
+  --color-accent5-800: #f57c00;
+  --color-accent5-900: #ef6c00; */
 
   --padding-global: 3rem;
   --border-radius-global: 1rem;
