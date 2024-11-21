@@ -12,7 +12,10 @@ const Detail = () => {
         <section className={`${style.sectionDetail}`}>
             <h1 className={`${style.title}`}>Project: <span className={`${style.dark}`}>{`${title[0].toUpperCase()}${title.slice(1)}`}</span></h1>
             <p className={`${style.description}`}>{project.description}</p>
-            <a target='_blank' href={`${project.active ? project.link : ''}`} className={`${style.projectLink}`}>Visit '{project.title}'</a>
+            {
+                project.active &&
+                <a target='_blank' href={project.link} className={`${style.projectLink}`}>Visit '{project.title}'</a>
+            }
             <div className={`${style.images}`}>
                 {
                     Array.from({ length: project.images }).map((_, index) => (
