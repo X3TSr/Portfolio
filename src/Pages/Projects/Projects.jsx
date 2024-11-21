@@ -12,7 +12,6 @@ const Projects = () => {
                 {
                     Object.keys(PROJECTS).map((project, index) => {
                         return (
-                            // <a href={`/project/${project}`}><img key={index} src={PROJECTS[project].thumbnail} alt={PROJECTS[project].title} /></a>
                             <CardsHighlights key={index} title={project} />
                         )
                     })
