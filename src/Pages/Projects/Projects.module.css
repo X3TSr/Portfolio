@@ -12,11 +12,12 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(55rem, 1fr));
     justify-items: center;
+    gap: calc(var(--padding-global)*1.5) var(--padding-global);
 
     width: 100%;
     margin-bottom: 6rem;
 }
-.projects img{
+/* .projects img{
     border: 1rem var(--color-white-200) solid;
     border-radius: var(--border-radius-global);
 
@@ -26,4 +27,4 @@
 .projects img:hover{
     border: 1rem var(--color-accent-200) solid;
     box-shadow: 0 0 1rem 0 var(--color-accent-200);
-}
+} */

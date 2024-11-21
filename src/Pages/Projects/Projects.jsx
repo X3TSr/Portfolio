@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './Projects.module.css'
 import PROJECTS from '../../consts/PROJECTS.json'
+import CardsHighlights from '../../Components/Cards/Highlights/CardsHighlights';
 
 const Projects = () => {
     return (
@@ -11,7 +12,8 @@ const Projects = () => {
                 {
                     Object.keys(PROJECTS).map((project, index) => {
                         return (
-                            <a href={`/project/${project}`}><img key={index} src={PROJECTS[project].thumbnail} alt={PROJECTS[project].title} /></a>
+                            // <a href={`/project/${project}`}><img key={index} src={PROJECTS[project].thumbnail} alt={PROJECTS[project].title} /></a>
+                            <CardsHighlights key={index} title={project} />
                         )
                     })
                 }
