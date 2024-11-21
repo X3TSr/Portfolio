@@ -15,6 +15,14 @@
         "images": 4,
         "link": "/"
     },
+    "portfolio on 3d laptop": {
+        "active": true,
+        "title": "Portfolio On 3D Laptop",
+        "description": "School project where we put our portfolio on a 3D laptop",
+        "thumbnail": "/images/projects/portfolio on 3d laptop/thumbnail.svg",
+        "images": 1,
+        "link": "https://portfolio-on-3-d-laptop.vercel.app"
+    },
     "aux portes de soi": {
         "active": true,
         "title": "Aux portes de soi",
@@ -30,13 +38,5 @@
         "thumbnail": "/images/projects/barcelona offf festival/thumbnail.svg",
         "images": 2,
         "link": "https://barcelona-3d.vercel.app"
-    },
-    "portfolio on 3d laptop": {
-        "active": true,
-        "title": "Portfolio On 3D Laptop",
-        "description": "School project where we put our portfolio on a 3D laptop",
-        "thumbnail": "/images/projects/portfolio on 3d laptop/thumbnail.svg",
-        "images": 1,
-        "link": "https://portfolio-on-3-d-laptop.vercel.app"
     }
 }
