@@ -15,8 +15,8 @@ const Detail = () => {
             <a target='_blank' href={`${project.active ? project.link : ''}`} className={`${style.projectLink}`}>Visit '{project.title}'</a>
             <div className={`${style.images}`}>
                 {
-                    project.images.map((image, index) => (
-                        <img key={index} src={image} alt={title} className={`${style.image}`} />
+                    Array.from({ length: project.images }).map((_, index) => (
+                        <img key={index} alt={title} className={`${style.image}`} src={`/images/projects/${project.title.toLowerCase()}/${index + 1}.svg`} />
                     ))
                 }
             </div>
