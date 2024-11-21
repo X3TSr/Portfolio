@@ -29,7 +29,6 @@
         font-size: 4.2rem;
     }
 }
-/* Make it responsive */
 @media screen and (min-width:768px) and (max-width: 1024px){
     .welcome{
         font-size: 6.4rem;
