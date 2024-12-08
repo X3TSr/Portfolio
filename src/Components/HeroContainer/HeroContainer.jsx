@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import style from './HeroContainer.module.css'
 import { Canvas } from '@react-three/fiber'
-import { useGLTF, useTexture } from '@react-three/drei'
+import { useGLTF } from '@react-three/drei'
 
 const Planet = () => {
 
